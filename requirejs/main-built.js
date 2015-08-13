@@ -1,0 +1,1 @@
+define("logger",[],function(){return function(){console.log.apply(console,arguments)}}),define("app",["./logger"],function(e){e()});
